@@ -1,0 +1,105 @@
+.container {
+  text-align: center;
+  margin: auto;
+  width: auto;
+}
+
+.title {
+  color: var(--green);
+}
+
+.subtitle {
+  margin-bottom: 5px;
+  color: #21212199;
+}
+
+.goodscontainer{
+  width:60%;
+  margin: auto;
+}
+.slideContainer {
+  position: relative;
+  height: 174px;
+  width: max-content;
+  margin: auto;
+  overflow: hidden;
+  box-shadow: none;
+  background-color: none;
+  border-radius: 13px;
+}
+
+.slideImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slideTextOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+  color: #fff;
+  border-radius: 5px;
+  
+background: radial-gradient(100% 299.2% at 3.59% 3.24%, rgba(255, 255, 255, 0.49) 0%, rgba(255, 255, 255, 0.07) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+border: 3.05549px solid rgba(255, 255, 255, 0.3);
+backdrop-filter: blur(18.3329px);
+
+}
+
+.addWrapper {
+  padding: 0px;
+  position: absolute;
+  top: 72%;
+  right: 13px;
+  height: 36px;
+  width: 94px;
+  border-radius: 12px;
+  background-color: #01395e;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.addWrapper:hover{
+  color: #01395e;
+  background-color: #fff;
+}
+
+.seeAllButton {
+  color: #ffffff;
+  background-color: #01395e;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 28px;
+  width: 218px;
+  text-transform: capitalize;
+}
+
+
+
+.arrowIcon {
+  margin-left: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
